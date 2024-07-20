@@ -8524,7 +8524,7 @@ class BayesNet(IBaseObj):
     def _repr_svg_(self):
         if graphviz is None:
             return None
-        return self.graph()._repr_svg_()
+        return self.graph()._repr_image_svg_xml()
 
     def _repr_latex_(self):
         if graphviz is not None:
