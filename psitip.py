@@ -193,11 +193,7 @@ except ImportError:
     lark = None
     lark_v_args = lambda inline: (lambda x: x)
     lark_Transformer = object
- 
- try: 
-     import pycddlib
-except ImportError:
-     pycddlib = None
+
 
 
 # try:
